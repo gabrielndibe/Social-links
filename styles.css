@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --green: hsl(75, 94%, 57%);
+
+--white: hsl(0, 0%, 100%);
+
+--grey-700: hsl(0, 0%, 20%);
+--grey-800: hsl(0, 0%, 12%);
+--grey-900: hsl(0, 0%, 8%);
+}
+body {
+    background-color: var(--grey-900);
+    font-family: Tahoma;
+}
+.main {
+    background-color: var(--grey-800);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: var(--white);
+    transform: translate(-50%, -50%);
+    height: 25rem;
+    width: 17rem;
+    border-radius: 0.5em;
+}
+.gabriel_img {
+    width: 60px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    display: block;
+}
+h1 {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-weight: 700;
+}
+h3 {
+   font-size: 12px;
+   text-align: center;
+   margin-top: 53%;
+   color: var(--green);
+}
+p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none; /* Optional: remove underline */
+    color: var(--white);
+    padding-top: 20px;
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 24%; /* Move down 50% of the container's height */
+    left: 50%; /* Move right 50% of the container's width */
+    transform: translate(-50%, -50%); /* Center the item */
+    font-size: 14px;
+}
+.github {
+    position: absolute;
+    left: 10%;
+    background-color: var(--grey-700);
+    height: 1.9rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.twitter {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background-color: var(--grey-700);
+    height: 1.9rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.frontend {
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    background-color: var(--grey-700);
+    height: 1.9rem;
+    width: 13rem;
+    border-radius: 0.3rem;
+    text-align: center;
+} @media screen and (max-width: 375px) {
+
+    
+}
